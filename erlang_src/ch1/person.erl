@@ -1,5 +1,8 @@
 -module(person).
--export([init/1]).
+% -export([init/1]).
 
-init(Name) -> 
-    lisicen.
+% init(Name) -> 
+%     receive
+%         {From, Message} ->
+%             "".
+%     end
