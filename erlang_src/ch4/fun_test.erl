@@ -8,4 +8,3 @@ test() ->
 
 area({rectangle, W, H}) -> W * H;
 area({square, Side}) -> Side * Side.
-

@@ -4,3 +4,6 @@
 
 total(L) ->
     sum(map(fun({What, N}) -> shop:cost(What) * N end, L)).
+
+total2(L) ->
+    sum([shop:cost(A) * B || {A, B} <- L]).
