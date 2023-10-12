@@ -2,7 +2,8 @@
 -export([
     test/0,
     test3/0,
-    test4/0
+    test4/0,
+    test5/0
 ]).
 
 test() ->
@@ -24,3 +25,9 @@ test3() ->
 
 test4() ->
     list_to_tuple([1, 2, 3]).
+
+test5() ->
+    A = [1, 2, 3],
+    B = [a, b, c],
+    [{X, Y} || X <- A, Y <- B].
+
